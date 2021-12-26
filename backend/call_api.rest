@@ -1,0 +1,32 @@
+### get list product
+GET http://localhost:4000/products
+
+
+### insert product
+POST http://localhost:4000/products
+Content-Type: application/json
+
+{
+    "title": "Product 3",
+    "price": 8888.21
+}
+
+
+### show product by id
+GET http://localhost:4000/products/2
+
+
+
+### update product
+PATCH http://localhost:4000/products/2
+Content-Type: application/json
+
+{
+    "title": "Product 3",
+    "price": 4555
+}
+
+
+
+### delete product by id
+DELETE http://localhost:4000/products/3
