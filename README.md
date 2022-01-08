@@ -1,4 +1,4 @@
-### Crud React + Node Express
+### Crud React + Node 
 dbms : mysql
 
-Muhammad Ashshiddiqi
+by : Muhammad Ashshiddiqi
